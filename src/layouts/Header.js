@@ -34,13 +34,13 @@ const Header = () => {
                 <a href="#service">Service</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
-              </li>
-              <li>
                 <a href="#blog">Blog</a>
               </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
               <li className="download_cv">
-                <a href="img/cv/1.jpg" download>
+                <a href="img/cv/Dulaj Hansana CV V2.pdf" download>
                   Download CV
                 </a>
               </li>

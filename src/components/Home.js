@@ -1,14 +1,13 @@
 import Counter from "./Counter";
 
 const homeData = {
-  firstName: "James",
-  lastName: "Smith",
-  designation: "Web Developer",
-  address: "New York",
-  img: "img/hero/2.jpg",
-  bio: "Jodi kokhono vul hoye jai tumi oporadh nio na ptate velit esse cillum dolore",
-  numberOfProject: 800,
-  numberofyear: 12,
+  firstName: "Dulaj",
+  lastName: "Hansana",
+  designation: "Junior{Full Stack}Web & App developer",
+  img: "img/hero/2.png",
+  bio: "With expertise in cutting-edge technologies such as NodeJS, React, Flutter, and NextJs... I deliver web solutions that are both innovative and robust.",
+  numberOfProject: 8,
+  numberofyear: 4 ,
 };
 
 const Home = () => {
@@ -27,13 +26,13 @@ const Home = () => {
                   {homeData.firstName} {homeData.lastName}
                 </h3>
                 <h3 className="job">
-                  {homeData.designation} from {homeData.address}
+                  {homeData.designation}
                 </h3>
                 <p className="text">{homeData.bio}</p>
                 <div className="buttons">
                   <div className="devman_tm_button">
                     <a className="anchor" href="#contact">
-                      Get a Quote
+                      Get In Touch
                     </a>
                   </div>
                   <div className="simple_button">
@@ -59,9 +58,9 @@ const Home = () => {
                       <Counter end={homeData.numberofyear} />
                     </h3>
                     <span className="item_name">
-                      Years of
+                      Months of
                       <br />
-                      Success
+                      Expirence
                     </span>
                   </div>
                 </div>
@@ -79,8 +78,8 @@ const Home = () => {
                   </div>
                 </div>
                 <span className="circle anim_circle">
-                  <img src="img/hero/circle.png" alt="" />
-                </span>
+                  <img src="img/hero/3.png" alt="" id="animatedImage" />
+                  </span>
               </div>
             </div>
           </div>

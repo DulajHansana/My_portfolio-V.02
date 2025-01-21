@@ -703,7 +703,12 @@ h6 {
   opacity: 1 !important;
 }
 .anim_circle {
-  animation: animCircle 15s infinite linear;
+  animation: animCircle 5s infinite linear;
+}
+
+@keyframes animCircle {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @keyframes animCircle {

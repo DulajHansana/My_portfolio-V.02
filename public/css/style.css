@@ -703,7 +703,7 @@ h6 {
   opacity: 1 !important;
 }
 .anim_circle {
-  animation: animCircle 5s infinite linear;
+  animation: animCircle 7s infinite linear;
 }
 
 @keyframes animCircle {

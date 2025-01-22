@@ -1,9 +1,9 @@
 const aboutData = {
   designation: "Developer",
-  title: "I Develop Application that Help People",
+  title: "I Develop Web Application & Mobile Application.",
   text: [
-    "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat",
-    "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis",
+    " Enthusiastic and quick-learning Junior Full stack Developer with hands-on experience in creating responsive and interactive web and mobile applications. Proficient in HTML, CSS, and JavaScript, with a strong focus on using React for web development and Flutter for mobile applications.",
+    " Passionate about translating design concepts into functional, user-friendly interfaces. Eager to grow and expand technical skills while contributing to innovative projects in a collaborative team environment.",
   ],
   skillIcons: [
     { name: "joomla", icon: "img/svg/joomla.svg" },
@@ -22,13 +22,13 @@ const About = () => {
             <div className="left">
               <div className="image_wrap">
                 <img src="img/thumbs/64-49.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div className="main" data-img-url="img/about/1.jpeg" />
                 <div className="extra_image">
                   <div className="image_inner">
                     <img src="img/thumbs/1-1.jpg" alt="" />
                     <div
                       className="main_extra"
-                      data-img-url="img/about/2.jpg"
+                      data-img-url="img/about/2.png"
                     />
                   </div>
                 </div>

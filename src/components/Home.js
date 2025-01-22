@@ -3,9 +3,9 @@ import Counter from "./Counter";
 const homeData = {
   firstName: "Dulaj",
   lastName: "Hansana",
-  designation: "Junior{Full Stack}Web & App developer",
+  designation: "Junior {Full Stack} Web & App developer",
   img: "img/hero/2.png",
-  bio: "With expertise in cutting-edge technologies such as NodeJS, React, Flutter, and NextJs... I deliver web solutions that are both innovative and robust.",
+  bio: "With expertise in cutting-edge technologies such as React, Node.Js, Flutter and NextJs...more. I deliver web solutions that are both innovative and robust.",
   numberOfProject: 8,
   numberofyear: 4 ,
 };

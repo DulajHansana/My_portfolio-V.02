@@ -5,7 +5,7 @@ import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Copyright from "../src/components/Copyright";
 import CounterSection from "../src/components/CounterSection";
-import Features from "../src/components/Features";
+
 import Partners from "../src/components/Partners";
 import Portfolio from "../src/components/Portfolio";
 import Process from "../src/components/Process";
@@ -36,7 +36,7 @@ const IndexDark = () => {
       <MobileHeader />
       <Header />
       <Home />
-      <Features />
+      
       <About />
       <CounterSection />
       <Portfolio />

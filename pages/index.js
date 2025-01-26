@@ -36,13 +36,12 @@ const IndexDark = () => {
       <MobileHeader />
       <Header />
       <Home />
-      
       <About />
       <CounterSection />
       <Portfolio />
+      <Process />
       <Skills />
       <Service />
-      <Process />
       <Testimonials />
       <Partners dark />
       <Contact />

@@ -1899,14 +1899,24 @@ h6 {
   border: none !important;
   background: none !important;
 }
+.devman_tm_accordion .acc_content.hide {
+  display: none;
+}
+
+.devman_tm_accordion .acc_content.show {
+  display: block; /* Shows the content when the section is active */
+}
+
 .devman_tm_accordion .acc_content_in {
   width: 100%;
-  float: left;
-  clear: both;
-  overflow: hidden;
   padding: 11px 0 8px 50px;
   position: relative;
+  clear: both;
+  float: left;
 }
+
+
+
 .devman_tm_accordion .plus {
   display: block;
   width: 18px;
@@ -3526,4 +3536,20 @@ h6 {
   .devman_tm_modalbox .description_wrap:after {
     height: 20px;
   }
+}
+.exp_img{
+  width: 133px;
+  height: 125px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  
+  
+}
+.exp_img_1{
+  width: 133px;
+  height: 125px;
+  display: block;
+  gap: 10px;
+  flex-wrap: wrap; 
 }

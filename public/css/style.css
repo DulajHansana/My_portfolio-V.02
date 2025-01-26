@@ -2165,7 +2165,7 @@ h6 {
 }
 .devman_tm_partners ul li .list_inner {
   width: 100%;
-  height: auto;
+  height: 100%;
   clear: both;
   float: left;
   opacity: 0.5;
@@ -2175,6 +2175,8 @@ h6 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+  transform: scale(1.6); /* Scales the images to 110% of their original size */
 }
 .devman_tm_partners ul li .list_inner:hover {
   opacity: 1;

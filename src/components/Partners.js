@@ -3,6 +3,11 @@ const Partners = ({ dark }) => {
     <div className="devman_tm_section">
       <div className="devman_tm_partners">
         <div className="container">
+        <div className="devman_tm_main_title" data-text-align="center">
+            <span>Familiar Technologies</span>
+            <h3>Tech stacks and Tools</h3>
+            
+          </div>
           <div className="partners_inner">
             <ul>
               <li>

@@ -1899,14 +1899,24 @@ h6 {
   border: none !important;
   background: none !important;
 }
+.devman_tm_accordion .acc_content.hide {
+  display: none;
+}
+
+.devman_tm_accordion .acc_content.show {
+  display: block; /* Shows the content when the section is active */
+}
+
 .devman_tm_accordion .acc_content_in {
   width: 100%;
-  float: left;
-  clear: both;
-  overflow: hidden;
   padding: 11px 0 8px 50px;
   position: relative;
+  clear: both;
+  float: left;
 }
+
+
+
 .devman_tm_accordion .plus {
   display: block;
   width: 18px;
@@ -2155,7 +2165,7 @@ h6 {
 }
 .devman_tm_partners ul li .list_inner {
   width: 100%;
-  height: auto;
+  height: 100%;
   clear: both;
   float: left;
   opacity: 0.5;
@@ -2165,6 +2175,8 @@ h6 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+  transform: scale(1.6); /* Scales the images to 110% of their original size */
 }
 .devman_tm_partners ul li .list_inner:hover {
   opacity: 1;
@@ -3527,3 +3539,97 @@ h6 {
     height: 20px;
   }
 }
+.exp_img{
+  width: 133px;
+  height: 125px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  
+  
+}
+.exp_img_1{
+  width: 133px;
+  height: 125px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; 
+}
+.container_1 {
+  padding: 300px;
+  margin-bottom: -275px;
+  font-family: Arial, sans-serif;
+}
+
+.section-title h2 {
+  color: #e3e3e3;
+}
+
+.education-list {
+  list-style: none;
+  padding: 100px;
+  margin-left: -150px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  border-left: 5px solid #ff6f00;
+  
+}
+
+.education-year, .education-institution, .education-degree, .education-info {
+  margin: 0;
+  color: #ffffff;
+}
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.education-logo {
+  width: 100px; /* Set this to your desired size */
+  height: auto;
+  margin-right: 20px;
+}
+
+.education-text {
+  flex: 1;
+}
+.social-icon {
+  margin: 0 10px;
+  color: #fff; /* Change color to fit your design */
+  font-size: 24px; /* Adjust size as needed */
+}
+
+.social-icon:hover {
+  color: #ccc; /* Change hover color to fit your design */
+}
+.media{
+  display: flex;
+  gap: 1px;
+  margin-right: 20px; 
+  
+  color: #ffffff;
+  font-family: var(--font-family-extra);
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  
+}
+.s_img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+

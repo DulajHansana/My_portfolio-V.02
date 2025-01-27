@@ -11,10 +11,9 @@ const Portfolio = () => {
           <div className="container">
             <div className="devman_tm_main_title" data-text-align="center">
               <span>Portfolio</span>
-              <h3>My Amazing Works</h3>
+              <h3>Some of My Amazing Works</h3>
               <p>
-                Dliquip ex ea commo do conse namber onequa ute irure dolor in
-                reprehen derit in voluptate
+              Excited to take on new projects and collaborate.
               </p>
             </div>
             <div className="portfolio_list">
@@ -23,21 +22,21 @@ const Portfolio = () => {
                   <div className="list_inner">
                     <div
                       className="background_image"
-                      data-img-url="img/portfolio/1.jpg"
+                      data-img-url="img/portfolio/1.png"
                     />
                     <div className="content">
                       <div className="details">
                         <span className="category">
-                          <a href="#">Youtube</a>
+                          <a href="#">SparkChat</a>
                         </span>
                         <h3 className="title">
                           <a href="#">
-                            Web Application for
-                            <br /> Desiverse
+                          Web Application
+                            <br /> for Massaging 
                           </a>
                         </h3>
                         <span className="view_project">
-                          <a href="#">
+                          <a href="https://github.com/DulajHansana/Spark-Chat-V.0.1.git">
                             View Project <i className="icon-right-big" />
                           </a>
                         </span>
@@ -45,8 +44,8 @@ const Portfolio = () => {
                     </div>
                     <div className="overlay" />
                     <a
-                      className="devman_tm_full_link popup-youtube"
-                      href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                      
+                      href="https://github.com/DulajHansana/Spark-Chat-V.0.1.git"
                     />
                   </div>
                 </li>
@@ -54,21 +53,48 @@ const Portfolio = () => {
                   <div className="list_inner">
                     <div
                       className="background_image"
-                      data-img-url="img/portfolio/2.jpg"
+                      data-img-url="img/portfolio/2.png"
                     />
                     <div className="content">
                       <div className="details">
                         <span className="category">
-                          <a href="#">Vimeo</a>
+                          <a href="#">CareerPluse</a>
                         </span>
                         <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
+                          <a href="https://github.com/DulajHansana/CareerPulse-Mobile-App.git">
+                          Mobile Application for
+                            <br /> Internship Find
                           </a>
                         </h3>
                         <span className="view_project">
-                          <a href="#">
+                          <a href="https://github.com/DulajHansana/CareerPulse-Mobile-App.git">
+                            View Project <i className="icon-right-big" />
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="overlay" />
+                  </div>
+                </li>
+                <li className="wow fadeInUp" data-wow-duration="1s">
+                  <div className="list_inner">
+                    <div
+                      className="background_image"
+                      data-img-url="img/portfolio/3.png"
+                    />
+                    <div className="content">
+                      <div className="details">
+                        <span className="category">
+                          <a href="#">Eflyer</a>
+                        </span>
+                        <h3 className="title">
+                          <a href="https://github.com/DulajHansana/E-Commerce-web-Site.git">
+                            E Commerce Web Application
+                            <br /> for Shopping
+                          </a>
+                        </h3>
+                        <span className="view_project">
+                          <a href="https://github.com/DulajHansana/E-Commerce-web-Site.git">
                             View Project <i className="icon-right-big" />
                           </a>
                         </span>
@@ -76,8 +102,8 @@ const Portfolio = () => {
                     </div>
                     <div className="overlay" />
                     <a
-                      className="devman_tm_full_link popup-vimeo"
-                      href="https://vimeo.com/337293658"
+                      className="devman_tm_full_link soundcloude_link mfp-iframe audio"
+                      href="https://github.com/DulajHansana/E-Commerce-web-Site.git"
                     />
                   </div>
                 </li>
@@ -85,17 +111,17 @@ const Portfolio = () => {
                   <div className="list_inner">
                     <div
                       className="background_image"
-                      data-img-url="img/portfolio/3.jpg"
+                      data-img-url="img/portfolio/4.png"
                     />
                     <div className="content">
                       <div className="details">
                         <span className="category">
-                          <a href="#">Soundcloud</a>
+                          <a href="https://slpn.lk/">SLPN Printers</a>
                         </span>
                         <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
+                          <a href="https://slpn.lk/">
+                          E commerce website 
+                            <br /> with Wordpress
                           </a>
                         </h3>
                         <span className="view_project">
@@ -108,38 +134,7 @@ const Portfolio = () => {
                     <div className="overlay" />
                     <a
                       className="devman_tm_full_link soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    />
-                  </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
-                  <div className="list_inner">
-                    <div
-                      className="background_image"
-                      data-img-url="img/portfolio/4.jpg"
-                    />
-                    <div className="content">
-                      <div className="details">
-                        <span className="category">
-                          <a href="#">Details</a>
-                        </span>
-                        <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
-                          </a>
-                        </h3>
-                        <span className="view_project">
-                          <a href="#">
-                            View Project <i className="icon-right-big" />
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="overlay" />
-                    <a
-                      className="devman_tm_full_link portfolio_popup c-pointer"
-                      onClick={() => setPopup(true)}
+                      href="https://slpn.lk/"
                     />
                   </div>
                 </li>

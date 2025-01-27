@@ -49,7 +49,7 @@ const Contact = () => {
           <div className="contact_inner">
             <div className="devman_tm_main_title" data-text-align="left">
               <span>{`Don't`} be shy</span>
-              <h3>Drop Me a Line</h3>
+              <h3>Drop Me a Message</h3>
             </div>
             <div className="in">
               <div className="left wow fadeInLeft" data-wow-duration="1s">
@@ -123,7 +123,7 @@ const Contact = () => {
                       </div>
                       <div className="short">
                         <h3>Address</h3>
-                        <span>20, Somewhere in world</span>
+                        <span>pitipana, Homagama</span>
                       </div>
                     </div>
                   </li>
@@ -135,7 +135,7 @@ const Contact = () => {
                       <div className="short">
                         <h3>Email</h3>
                         <span>
-                          <a href="#">hello@devman.com</a>
+                          <a href="#">dulajhansana1973@gmail.com</a>
                         </span>
                       </div>
                     </div>
@@ -147,9 +147,10 @@ const Contact = () => {
                       </div>
                       <div className="short">
                         <h3>Phone</h3>
-                        <span>+123 456 7890</span>
+                        <span>077 893 7472</span><br></br>
+                        <span>072 793 7472</span>
                       </div>
-                    </div>
+                    </div>  
                   </li>
                 </ul>
               </div>

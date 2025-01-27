@@ -3551,7 +3551,55 @@ h6 {
 .exp_img_1{
   width: 133px;
   height: 125px;
-  display: block;
+  display: flex;
   gap: 10px;
   flex-wrap: wrap; 
 }
+.container_1 {
+  padding: 300px;
+  margin-bottom: -275px;
+  font-family: Arial, sans-serif;
+}
+
+.section-title h2 {
+  color: #e3e3e3;
+}
+
+.education-list {
+  list-style: none;
+  padding: 100px;
+  margin-left: -150px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  border-left: 5px solid #ff6f00;
+  
+}
+
+.education-year, .education-institution, .education-degree, .education-info {
+  margin: 0;
+  color: #ffffff;
+}
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.education-logo {
+  width: 100px; /* Set this to your desired size */
+  height: auto;
+  margin-right: 20px;
+}
+
+.education-text {
+  flex: 1;
+}
+

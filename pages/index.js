@@ -5,7 +5,7 @@ import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Copyright from "../src/components/Copyright";
 import CounterSection from "../src/components/CounterSection";
-
+import Education from "../src/components/Education";
 import Partners from "../src/components/Partners";
 import Portfolio from "../src/components/Portfolio";
 import Process from "../src/components/Process";
@@ -38,6 +38,7 @@ const IndexDark = () => {
       <Home />
       <About />
       <CounterSection />
+      <Education />
       <Portfolio />
       <Process />
       <Skills />

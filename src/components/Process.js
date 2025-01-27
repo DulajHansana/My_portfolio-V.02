@@ -15,11 +15,11 @@ const Process = () => {
               <div className="exp_img" data-text-align="left">
                 <img src="img/logo/BOC.jpg" alt="" />
                 <img src="img/logo/Payshia.jpeg" alt="" />
-                <img src="img/logo/ICTS.jpeg" alt="" />
+                <img src="img/logo/Github.jpg" alt="" />
               </div>
-              <div>
+              <div className="exp_img" data-text-align="left">
+              <img className="exp_img" src="img/logo/ICTS.jpeg" alt="" />
               <img className="exp_img_1" src="img/logo/IEEE.jpeg" alt=""/>
-              
               </div>
               
               

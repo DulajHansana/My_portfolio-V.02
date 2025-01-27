@@ -12,6 +12,11 @@ const accordionData = [
       "I was working as Full-stack Web Developer Trainee at Payshia Software solutions. It's a Startup company. From that I have build and modify Webb application using PHP language.Other Skills that I experienced Mysql Database, Postman Also how the communication handle in team by using Slack.",
   },
   {
+    title: " Open Source Contributor",
+    details:
+      "I was a open source contributor at github. I have been developed my technical skill by contributing to open source projects",
+  },
+  {
     title: "J'pura CryptX 1.0  From ICT Society J’Pura",
     details:
       "I was working as Financer in Finance Team. from that I have been developed my financial management skill. Also I have been developed my communication skill by collaborating with others.",

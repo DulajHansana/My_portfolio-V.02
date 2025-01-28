@@ -28,6 +28,7 @@ const IndexDark = () => {
     <Layout>
       <Head>
         <title>Dev.Dulaj | Home</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
       </Head>
       <MobileHeader />
       <Header />

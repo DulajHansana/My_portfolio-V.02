@@ -49,7 +49,7 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li className="download_cv">
-                <a href="img/cv/Dulaj Hansana CV V2.pdf" download>
+                <a href="img/cv/Dulaj Hansana's CV V3.pdf" download>
                   Download CV
                 </a>
               </li>

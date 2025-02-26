@@ -4,7 +4,7 @@ const homeData = {
   firstName: "Dulaj",
   lastName: "Hansana",
   designation: "Junior {Full Stack} Web & App developer",
-  img: "img/hero/2.png",
+  img: "img/hero/2.webp",
   bio: "With expertise in cutting-edge technologies such as React, Node.Js, Flutter and NextJs...more. I deliver web solutions that are both innovative and robust.",
   numberOfProject: 8,
   numberofyear: 4 ,
@@ -15,7 +15,6 @@ const Home = () => {
     <div className="devman_tm_section" id="home">
       <div className="devman_tm_hero">
         <div className="background">
-          <div className="image" data-img-url="img/hero/1.jpg" />
         </div>
         <div className="container">
           <div className="content">

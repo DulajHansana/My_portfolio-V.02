@@ -9,9 +9,8 @@
 </ul>
 <h3>Technologies Used</h3>
 <ul>
-  <li><b>React.js:</b> Used for building the user interface with stateful and stateless components.</li>
+  <li><b>Next.js:</b> Used for building the user interface with stateful and stateless components.</li>
   <li><b>CSS Modules:</b> For styling components in a modular and reusable way.</li>
-  <li><b>React Router</b> For navigation between different sections of the portfolio.</li>
 </ul>
 
 
